@@ -1,0 +1,48 @@
+/*/https://github.com/LUlguim
+//2018*/
+body{
+	background: url("../img/fundo2.png") no-repeat center center fixed;
+	background-size: cover;/*imagem nunca deixa de preencher toda tela*/
+    text-align: center;
+    font-family: "Lucida Console";
+    height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h2{
+	font-size: 30px;
+	color: white; 
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+
+input[type=text] {
+    width: 260px;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 17px;
+}
